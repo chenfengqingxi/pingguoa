@@ -1,0 +1,708 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-08 09:50:50
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-11 17:48:50
+*/
+/* 
+	text-decoration: none; */
+
+@import url("base.css");
+
+@font-face {
+  font-family: 'iconfont';  /* project id 533789 */
+  src: url('http://at.alicdn.com/t/font_533789_4yvyr00jq0110pb9.eot');
+  src: url('http://at.alicdn.com/t/font_533789_4yvyr00jq0110pb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_533789_4yvyr00jq0110pb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_533789_4yvyr00jq0110pb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_533789_4yvyr00jq0110pb9.svg#iconfont') format('svg');
+}
+
+.iconfont{font-family: 'iconfont';}
+.top{
+/* 	width: 100%; */
+	height: 40px;
+	background: #000;
+
+}
+.top header{
+/* 	width: 976px; */
+	height: 40px;
+/* 	background: pink; */
+	margin: 0 auto;
+}
+.guanggao{
+	display: block;
+	font-size: 12px;
+	color: #666666;
+    float: right;
+    line-height: 40px;
+    text-decoration: none;
+/*     margin-right: 12px; */
+
+}
+
+.top1{
+	height: 45px;
+	background: #333;
+
+}
+.top1mid{
+	margin: 0 auto;
+/* 	width: 976px; */
+/* 	background: white; */
+	height: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+.mid1{
+   margin-top: 12px;
+}
+.icon1{
+	font-size: 20px;
+	color: #fff;
+	font-style:normal;
+}
+.icon2{
+	font-size: 14px;
+	margin-top: 3px;
+}
+.icon1:hover{
+	color: #666;
+}
+.top2{
+	height: 45px;
+	background: #333;
+
+}
+ul .iphone{
+/* 	height: 580px; */
+	margin-bottom: 16px;
+}
+ul .iphone a{
+    width: 100%;
+    height: 100%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	background: #FAFAFA;
+}
+ul .iphone a h1{
+	color: #000;
+	text-align: center;
+}
+ul .iphone a h2{
+	color: #000;
+	text-align: center;
+}
+
+ul .iphone8{
+	margin-bottom: 12px;
+}
+ul .iphone8 a{
+	background:#F9F0EB;
+    width: 100%;
+    height: 100%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+
+}
+ul .iphone8 a h1{
+	color: #000;
+	text-align: center;
+}
+ul .iphone8 a h2{
+	color: #000;
+	text-align: center;
+}
+
+
+.list{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.list li{
+	box-sizing: border-box;
+	float: left;
+	background: #fafafa;
+	position: relative;
+}
+
+
+.list li a{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.list li a h1{
+	color: #111;
+	text-align: center;
+}
+.list li a h2{
+	color: #111;
+	text-align: center;
+}
+.liuchen{
+	width: 100%;
+	
+	background: #f2f2f2;
+}
+
+.first{
+	width: 100%;
+	height: 335px;
+	background: #f2f2f2;
+
+
+}
+.first li{
+	height: 100%;
+/* 	width:976px; */
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	overflow: hidden;
+	box-sizing: border-box;
+
+   
+
+}
+
+/* 底部第一栏 */
+.lie1 {
+    margin-top: 45px;
+}
+.lie1 h1{
+	font-size: 10px;
+	color: #000;
+}
+.lie1 a{
+	margin-top: 10px;
+	display: block;
+	font-size: 10px;
+	color: #666666;
+}
+.lies{
+	margin-top: 30px;
+}
+/* 第一次第三个 */
+.thied{
+  width: 100%;
+  height: 300px;
+  background: #f2f2f2;
+}
+.thied li{
+	width: 95%;
+	height: 43px;
+	background: #f2f2f2;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin:0 auto;
+	border-bottom: 1px solid #d6d6d6;
+	display: flex;
+	justify-content: space-between;
+}
+.first li div a:hover{
+	text-decoration: underline;
+}
+
+.thiedwenzi{
+	display: block;
+    font-size: 10px;
+    color: #000;
+    margin-top: 18px;
+}
+
+.shrong{
+	background: #999;
+	width: 100%;
+	height: 1px;
+	margin-top: 18px;
+}
+
+.lcx{
+	width: 100%;
+	background: #f2f2f2;
+}
+.twice{
+/* 	width: 976px; */
+	height: 94px;
+	background: #f2f2f2;
+	box-sizing: border-box;
+     margin:  0 auto;
+}
+.twice .twcie1{
+	width: 100%;
+	display: flex;
+}
+
+.twice .twcie1 p {
+	color: #888;
+	font-size: 10px;
+}
+.twice .twcie1 a{
+	color: #5da2d9;
+	font-size: 10px;
+}
+.twice .twcie1 a:hover{
+	text-decoration: underline;
+}
+.twice2{
+	margin-top: 20px;
+	display: flex;
+	color: #888;
+	font-size: 10px;
+}
+.fanwei{
+	/* width: 976px; */
+	display: flex;
+	justify-content: space-between;
+}
+.fanwei div{
+  display: flex;
+}
+
+.twice2 p{
+	margin-right: 37px;
+/* 	margin-bottom: 15px; */
+}
+.twice .twice2 a{
+	display: block;
+	color: #000;
+	font-size: 10px;
+	margin-right: 7px;
+}
+.twice .twice2 a:nth-child(10){
+	margin-right: 31px;
+}
+.twice .twice2 div{
+	color: #888;
+	margin-right: 7px;
+/* 	margin-bottom: 15px; */
+}
+.twice3{
+	margin-top: 11px;
+	font-size: 10px;
+	color: #888;
+}
+.twice22{
+	width: 15px;
+	height: 15px;
+	background: #de2910;
+	border-radius: 50%;
+}
+.twice9{
+	height: 250px;
+	width: 100%;
+	background: #f2f2f2;
+	box-sizing: border-box;
+}
+.twice9 .twcie1{
+	margin-top: 21px;
+	width: 78%;
+	display: flex;
+	font-size: 10px;
+	color: #888; 
+}
+.twice9 a{
+	color: #8abae1;
+}
+.twice9 a:hover{
+	text-decoration: underline;
+}
+.twice8{
+	margin-top: 21px;
+	display: flex;
+}
+.twice8 div{
+	display: block;
+   width: 15px;
+	height: 15px;
+	background: #de2910;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+.twice8 a{
+	font-size: 10px;
+	color: #333;
+}
+.twice7{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 10px;
+	color: #888;
+}
+.twice2 a {
+     color: #333;
+}
+.twi{
+	font-size: 10px;
+	color: #888;
+	margin-top: 10px;
+}
+
+
+
+
+
+/* 大于1024 */
+@media screen and (min-width: 1024px) {
+	.top header{
+	 	width: 976px;
+	 }
+	 .max{
+	 	width: 976px;
+	 }
+	.top1{
+	 display: block;
+	 }
+	  .top2{
+	 	display: none;
+	 }
+
+
+ul .iphone{
+	height: 580px;
+}
+ul .iphone a h1{
+	font-size: 45px;
+	line-height: 69px;
+	margin-top: 100px;
+}
+ul .iphone a h2{
+	font-size: 26px;
+	line-height: 48px;
+}
+ul .iphone a div{
+	height: 194px;
+	width: 909px;
+	background: url('../img/iphone_x_large.jpg') no-repeat center center;
+	background-size: 909px 194px;
+	position: absolute;
+	left: 0px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 124px;
+}
+
+
+
+
+ul .iphone8{
+   height: 580px;
+}
+ul .iphone8 a h1{
+	font-size: 45px;
+	line-height: 55px;
+	margin-top: 54px;
+}
+ul .iphone8 a h2{
+	font-size: 25px;
+	line-height: 35px;
+}
+ul .iphone8 a div{
+	height: 395px;
+	width: 561px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	bottom: 0;
+	background: url('../img/iphone8.jpg')no-repeat center center;
+    background-size: 561px 391px;
+}
+
+.list li{
+	width: 50%;
+	height: 580px;
+	border-bottom: 12px solid #fff;
+	border-right: 12px solid #fff;
+}
+.list li:nth-child(2n+1){
+	border-left: 12px solid #fff;
+}
+.list li a h1{
+	font-size: 29px;
+	line-height: 46px;
+	margin-top: 50px;
+}
+.list li a h2{
+	font-size: 17px;
+	line-height: 33px;
+}
+.list li a div{
+	width: 385px;
+	height: 304px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 75px;
+	background: url('../img/borther.jpg')no-repeat center center;
+    background-size: 385px 304px;
+}
+.first{
+	display: block;
+	width: 976px;
+	margin: 0 auto;
+}
+.thied{
+	display: none;
+}
+.twice{
+	display: block;
+	width: 976px;
+	margin: 0 auto;
+}
+.twice9{
+	display: none;
+}
+
+.fanwei{
+	width: 976px;
+	
+}
+
+}
+
+/* 小于1024 */
+@media screen and (max-width: 1024px){
+	.top header{
+		padding: 0 15px;
+	}
+
+}
+
+
+
+
+/* 768-1024 */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.top2{
+		display: none;
+	}
+	.top1{
+		display: block 
+	}
+	.max{
+		/* width: 976px; */
+		padding: 0 15px;
+	}
+
+	ul .iphone{
+	height: 580px;
+}
+ul .iphone a h1{
+	font-size: 34px;
+	line-height: 45px;
+	margin-top: 112px;
+}
+ul .iphone a h2{
+	font-size: 20px;
+	line-height: 31px;
+}
+ul .iphone a div{
+	height: 148px;
+	width: 704px;
+	background: url('../img/iphone_x_medium_2x.jpg') no-repeat center center;
+	background-size: 704px 148px;
+	position: absolute;
+	left: 0px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 159px;
+}
+
+
+ul .iphone8{
+   height: 569px;
+}
+ul .iphone8 a h1{
+	font-size: 36px;
+	line-height: 57px;
+	margin-top: 78px;
+}
+ul .iphone8 a h2{
+	font-size: 23px;
+	line-height: 44px;
+}
+ul .iphone8 a div{
+	height: 388px;
+	width: 549px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	bottom: 0;
+	background: url('../img/iphone_8_medium.jpg')no-repeat center center;
+    background-size: 549px 388px;
+}
+
+.list li{
+	width: 50%;
+	height: 490px;
+	border-bottom: 12px solid #fff;
+	border-right: 12px solid #fff;
+}
+.list li a h1{
+	font-size: 23px;
+	line-height: 37px;
+	margin-top: 41px;
+}
+.list li a h2{
+	font-size: 17px;
+	line-height: 29px;
+}
+.list li a div{
+	width: 269px;
+	height: 212px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 99px;
+	background: url('../img/borther_medium.jpg')no-repeat center center;
+    background-size: 269px 212px;
+}
+.first{
+	display:block;
+	padding:0 25px;
+		box-sizing: border-box;
+
+}
+.thied{
+	display:none;
+}
+
+.twice{
+
+	display: block;
+	padding:0 25px; 
+	box-sizing: border-box;
+}
+.twice9{
+	display: none;
+}
+.fanwei{
+	width: 100%;
+	
+}
+}
+
+
+/* 小于768像素 */
+
+@media screen and (max-width:768px){
+	.top2{
+		display: block;
+	}
+	.top1{
+		display: none;
+
+	}
+	.min{
+		/* width: 976px; */
+		padding: 0 15px;
+	}	
+
+
+ul .iphone{
+    height: 500px;
+}
+ul .iphone a h1{
+	font-size: 27px;
+	line-height: 33px;
+	margin-top:44px;
+}
+ul .iphone a h2{
+	font-size: 18px;
+	line-height: 30px;
+}
+ul .iphone a div{
+	height: 333px;
+	width: 167px;
+	background: url('../img/hero_premiere_fallbacksmall.jpg') no-repeat center center;
+	background-size: 167px 333px;
+	position: absolute;
+	left: 0px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 45px;
+}
+ul .iphone8{
+   height: 500px;
+}
+ul .iphone8 a h1{
+	font-size: 27px;
+	line-height: 43px;
+	margin-top: 43px;
+}
+ul .iphone8 a h2{
+	font-size: 17px;
+	line-height: 33px;
+}
+ul .iphone8 a div{
+	height: 357px;
+	width: 267px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	bottom: 0;
+	background: url('../img/iphone_8_small.jpg')no-repeat center center;
+    background-size: 267px 357px;
+}
+
+.list li{
+	width: 100%;
+	height: 500px;
+	margin-bottom: 12px;
+}
+.list li a h1{
+	font-size: 23px;
+	line-height: 37px;
+	margin-top: 36px;
+}
+.list li a h2{
+	font-size: 17px;
+	line-height: 29px;
+}
+.list li a div{
+	width: 244px;
+	height: 193px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 105px;
+	background: url('../img/borther_small.jpg')no-repeat center center;
+    background-size: 244px 193px;
+}
+.first{
+	display: none;
+}
+.thied{
+	display: block;
+}
+
+.twice{
+	display: none;
+}
+.twice9{
+	display:block;
+	padding: 16px;
+}
+
+}
+
